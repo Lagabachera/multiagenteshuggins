@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Lint and Fix",
+      "type": "shell",
+      "command": "flake8 ${workspaceFolder} && autopep8 --in-place --aggressive --aggressive ${workspaceFolder}/*.py",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [
+        "$eslint-stylish"
+      ]
+    }
+  ]
+}

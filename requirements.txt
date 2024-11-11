@@ -1,0 +1,11 @@
+transformers
+python-dotenv
+sqlalchemy
+tika
+pandas
+PyPDF2
+pillow
+opencv-python
+pytesseract
+gradio
+

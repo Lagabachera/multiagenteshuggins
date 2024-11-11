@@ -1,0 +1,6 @@
+# requirements-dev.txt
+pre-commit
+flake8
+black
+mypy
+pytest
